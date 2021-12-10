@@ -18,7 +18,7 @@ function App() {
   //버튼 기능개발
   function 제목바꾸기() {
     let newArr = [...글제목];
-    newArr[0] = "여자 코트 추천!";
+    newArr[0] = "여자 코트 추천!!!";
     글제목변경(newArr);
   }
   return (
